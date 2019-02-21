@@ -1,0 +1,14 @@
+alphabet:
+  vowels:  ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü']
+  consonants: ['b', 'c', 'ç', 'd', 'f', 'g', 'ğ', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'ş', 't', 'v', 'y', 'z']
+  hard_consonants: ['ç', 'f', 'h', 'k', 'p', 's', 'ş', 't']
+  soft_consonants: ['b', 'c', 'd', 'g', 'ğ', 'j', 'l', 'm', 'n', 'r', 'v', 'y', 'z']
+
+rules:
+  softening_rule_lookup: {'p': 'b', 'ç': 'c', 't': 'd', 'k': 'ğ'}
+  consonant_harmony_lookup: {'c': 'ç',  'd': 't', 'g': 'k'}
+  vowel_harmony1: {'a': 'ı', 'e': 'i', 'ı': 'ı', 'i': 'i', 'o': 'u', 'ö': 'ü', 'u': 'u', 'ü': 'ü'}
+
+
+exceptions:
+  exception1: {}

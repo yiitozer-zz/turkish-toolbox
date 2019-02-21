@@ -1,0 +1,12 @@
+alphabet:
+  vowels:  ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü']
+  consonants: ['b', 'c', 'ç', 'd', 'f', 'g', 'ğ', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'ş', 't', 'v', 'y', 'z']
+  close_vowels: ['ı', 'i', 'u', 'ü']
+  wide_vowels: ['a', 'e', 'o', 'ö']
+
+rules:
+  vowel_harmony1: {'a': 'ı', 'e': 'i', 'ı': 'ı', 'i': 'i', 'o': 'u', 'ö': 'ü', 'u': 'u', 'ü': 'ü'}
+  vowel_fracture_lookup: ['a', 'e']
+
+exceptions:
+  exception1: {}
